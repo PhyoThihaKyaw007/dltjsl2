@@ -7,7 +7,7 @@ let timeclicked = 0;
 // Double click as dblclick
 let clicktimes = 0;
 
-loveme.addEventListener('click',(e)=>{
+loveme.addEventListener('mousemove',(e)=>{
     // console.log('hey');
 
     // e.preventDefault();
@@ -51,5 +51,5 @@ const createheart = (e) => {
 
     times.textContent = ++timeclicked;
 
-    setTimeout(()=>heart.remove(),1000);
+    setTimeout(()=>heart.remove(),4000);
 }
